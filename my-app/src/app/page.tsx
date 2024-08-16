@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Project from "./components/Project/Project";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -47,62 +48,44 @@ export default function Home() {
         <h3>Projetos</h3>
         <hr />
         <div className="projects-container">
-          <div className="project">
-            <img src="./assets/code-crafty-logo.png" alt="" />
-            <div>
-              <h4>Gerador de QRCode <span style={{ color: "#9340FF" }}>Code Crafty</span></h4>
-              <p>Um site responsivo e visualmente atraente que gera QR Codes estáticos a partir de dados de texto inseridos pelo usuário, permitindo o download fácil e rápido dos códigos.</p>
-              <p><span className="bold">Tecnologias:</span> HTML CSS JavaScript</p>
-              <a href="https://f7villani.github.io/code-crafty/" className="see-more" target="_blank">
-                Code Crafty
-                <i className="material-symbols-outlined open-new-icon">
-                  open_in_new
-                </i>
-              </a>
-            </div>
-          </div>
-          <div className="project">
-            <div>
-              <h4>Organizador de Viagens <span style={{ color: "#0774f0" }}>Trip Planner</span></h4>
-              <p>Você pode adicionar esse bot no seu grupo de amigos do WhatsApp e sempre que vocês marcarem de sair o bot cria um evento na agenda de todos.</p>
-              <p><span className="bold">Tecnologias: </span>React / Next.js</p>
-              <a href="" className="see-more ">
-                Veja mais
-                <i className="material-symbols-outlined open-new-icon">
-                  open_in_new
-                </i>
-              </a>
-            </div>
-            <img src="./assets/trip-planner-logo.png" alt="" />
-          </div>
-          <div className="project">
-            <div>
-              <h4>Calculadora de <span style={{ color: "#ED1C24" }}>Renda Fixa</span></h4>
-              <p>Desenvolvida para auxiliar na escolha de qual produto de renda fixa é a melhor escolha para uma determinada quantidade de tempo.</p>
-              <p><span className="bold">Tecnologias:</span> Flutter</p>
-              <a href="" className="see-more ">
-                Veja mais
-                <i className="material-symbols-outlined open-new-icon">
-                  open_in_new
-                </i>
-              </a>
-            </div>
-            <img src="./assets/calculator.png" alt="" />
-          </div>
-          <div className="project">
-            <img src="./assets/whatsapp.png" alt="/" />
-            <div>
-              <h4><span style={{ color: "#4DCB5B" }}>WhatsApp</span> Bot</h4>
-              <p>Você pode adicionar esse bot no seu grupo de amigos do WhatsApp e sempre que vocês marcarem de sair o bot cria um evento na agenda de todos.</p>
-              <p><span className="bold">Tecnologias: </span>Python</p>
-              <a href="" className="see-more ">
-                Veja mais
-                <i className="material-symbols-outlined open-new-icon">
-                  open_in_new
-                </i>
-              </a>
-            </div>
-          </div>
+          <Project
+            title="Gerador de QRCode"
+            name="Code Crafty"
+            color="#9340FF"
+            description="Um site responsivo e visualmente atraente que gera QR Codes estáticos a partir de dados de texto inseridos pelo usuário, permitindo o download fácil e rápido dos códigos."
+            technologies={["HTML", "CSS", "JavaScript"]}
+            link="https://f7villani.github.io/code-crafty/"
+            imageSrc="./assets/code-crafty-logo.png"
+          />
+          <Project
+            title="Organizador de Viagens"
+            name="Trip Planner"
+            color="#0774f0"
+            description="Você pode adicionar esse bot no seu grupo de amigos do WhatsApp e sempre que vocês marcarem de sair o bot cria um evento na agenda de todos."
+            technologies={["React", "Next.js"]}
+            link=""
+            imageSrc="./assets/trip-planner-logo.png"
+            inverted = {true}
+          />
+          <Project
+            title="Calculadora de Renda Fixa"
+            name="Renda Fixa"
+            color="#ED1C24"
+            description="Desenvolvida para auxiliar na escolha de qual produto de renda fixa é a melhor escolha para uma determinada quantidade de tempo."
+            technologies={["Flutter"]}
+            link=""
+            imageSrc="./assets/calculator.png"
+          />
+          <Project
+            title="WhatsApp Bot"
+            name="WhatsApp"
+            color="#4DCB5B"
+            description="Você pode adicionar esse bot no seu grupo de amigos do WhatsApp e sempre que vocês marcarem de sair o bot cria um evento na agenda de todos."
+            technologies={["Python"]}
+            link=""
+            imageSrc="./assets/whatsapp.png"
+            inverted = {true}
+          />
         </div>
       </section>
 
