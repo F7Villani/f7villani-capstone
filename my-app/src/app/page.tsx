@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Project from "./components/Project/Project";
 import styles from "./page.module.css";
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 export default function Home() {
   return (
@@ -68,23 +69,13 @@ export default function Home() {
             inverted = {true}
           />
           <Project
-            title="Calculadora de Renda Fixa"
+            title="Calculadora de"
             name="Renda Fixa"
             color="#ED1C24"
             description="Desenvolvida para auxiliar na escolha de qual produto de renda fixa é a melhor escolha para uma determinada quantidade de tempo."
             technologies={["Flutter"]}
             link=""
             imageSrc="./assets/calculator.png"
-          />
-          <Project
-            title="WhatsApp Bot"
-            name="WhatsApp"
-            color="#4DCB5B"
-            description="Você pode adicionar esse bot no seu grupo de amigos do WhatsApp e sempre que vocês marcarem de sair o bot cria um evento na agenda de todos."
-            technologies={["Python"]}
-            link=""
-            imageSrc="./assets/whatsapp.png"
-            inverted = {true}
           />
         </div>
       </section>
@@ -110,9 +101,7 @@ export default function Home() {
 
       <a href="#intro" className="gradient-button top-button">
         <div >
-          <span className="material-symbols-outlined">
-            expand_less
-          </span>
+          <ExpandLessIcon />
         </div>
       </a>
     </main>
