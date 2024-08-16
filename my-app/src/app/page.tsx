@@ -1,30 +1,11 @@
+import Header from "./components/Header/Header";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <section id="intro" className="gradient-background">
-        
-        <img src="./assets/geometry.png" alt="" className="geometry"/>
-
-        <div className="language-container">
-            <a href="" className="language-link">
-                <img src="./assets/flags/brasil.jpg" alt="brazil flag" className="flag"/>
-                <p>Português</p>
-            </a>
-        </div>
-        <div className="nav-bar">
-            <a href="#about">Sobre mim</a>
-            <a href="#projects">Projetos</a>
-            <a href="#contact">Contato</a>
-        </div>
-
-        <div className="name">
-            <h1>Felipe Villani</h1>
-            <hr/>
-            <h2>Desenvolvedor de Software</h2>
-        </div>
-      </section>
+      
+      <Header />
     
       <section id="about">
           <div className="loader"></div>
