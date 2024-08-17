@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
 import styles from "./page.module.css";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
@@ -62,9 +63,9 @@ export default function Home() {
             title="Organizador de Viagens"
             name="Trip Planner"
             color="#0774f0"
-            description="Você pode adicionar esse bot no seu grupo de amigos do WhatsApp e sempre que vocês marcarem de sair o bot cria um evento na agenda de todos."
+            description="Uma plataforma que te ajuda a organizar sua próxima viagem, permitindo a criação de orçamentos, te dando expectativa de climas e te mostrando pontos turísticos."
             technologies={["React", "Next.js"]}
-            link=""
+            link="https://f7villani.github.io/trip-planner/"
             imageSrc="./assets/trip-planner-logo.png"
             inverted = {true}
           />
@@ -88,16 +89,7 @@ export default function Home() {
         <a style={{ marginTop: "20px" }} href="mailto:felipevillani.2000@hotmail.com" className="gradient-button">Envie um Email</a>
       </section>
 
-      <section id="footer" className="gradient-background">
-        <div className="copyright">
-          <p>© 2024 Felipe Villani</p>
-        </div>
-        <div className="icons-container">
-          <a href="https://github.com/F7Villani" target="_blank"><img src="./assets/icons/github.svg" alt="github logo" /></a>
-          <a href="https://www.linkedin.com/in/felipe-villani/" target="_blank"><img src="./assets/icons/linkedin.svg" alt="linkedin logo" /></a>
-          <a href="https://www.instagram.com/felipevillani_/" target="_blank"><img src="./assets/icons/instagram.png" alt="INSTAGRAM logo" /></a>
-        </div>
-      </section>
+      <Footer />
 
       <a href="#intro" className="gradient-button top-button">
         <div >
