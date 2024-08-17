@@ -112,16 +112,27 @@ h5 {
 }
 
 .nav-bar > a {
+  position: relative;
   z-index: 1;
   font-weight: 300;
   color: white;
-  padding-bottom: 3px;
+  padding-bottom: .5em;
+  text-decoration: none;
 }
 
-.nav-bar > a:hover {
-  color: white;
-  border-bottom: 1px solid white;
-  padding-bottom: 2px;
+.nav-bar > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: .1em;
+  background-color: white;
+  transition: width 0.4s ease;
+}
+
+.nav-bar > a:hover::after {
+  width: 100%;
 }
 
 .name {
