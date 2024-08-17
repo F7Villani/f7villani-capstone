@@ -1,4 +1,6 @@
 import { Cinzel } from "@next/font/google";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const cinzel = Cinzel({
   weight: ['400', '500', '600', '700'],
@@ -6,16 +8,19 @@ const cinzel = Cinzel({
 });
 
 export default function Header() {
+
+  const t = useTranslations();
+
   return (
     <section id="intro" className="gradient-background">
 
       <img src="./assets/geometry.png" alt="" className="geometry" />
 
       <div className="language-container">
-        <a href="" className="language-link">
+        <Link href="/" locale="en" className="language-link">
           <img src="./assets/flags/brasil.jpg" alt="brazil flag" className="flag" />
-          <p>Português</p>
-        </a>
+          <p>{t("language")}</p>
+        </Link>
       </div>
       <div className="nav-bar">
         <a href="#about">Sobre mim</a>
