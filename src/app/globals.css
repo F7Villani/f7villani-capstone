@@ -99,6 +99,10 @@ h5 {
   color: white;
 }
 
+.language-link:hover {
+  cursor: pointer;
+}
+
 .flag {
   height: 2.5vh;
   border-radius: 4px;
