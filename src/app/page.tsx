@@ -3,13 +3,8 @@ import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
 import styles from "./page.module.css";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-import { useTranslations } from "next-intl";
-
 
 export default function Home() {
-
-  const t = useTranslations();
-
   return (
     <main className={styles.main}>
 

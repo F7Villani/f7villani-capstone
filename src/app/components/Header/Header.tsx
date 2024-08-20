@@ -2,9 +2,7 @@
 
 import { Cinzel } from "next/font/google";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
-import { getUserLocale, setUserLocale } from "@/app/hooks/locale";
-import { use, useEffect } from "react";
+import { setUserLocale } from "@/app/hooks/locale";
 
 const cinzel = Cinzel({
   weight: ['400', '500', '600', '700'],
@@ -13,7 +11,7 @@ const cinzel = Cinzel({
 
 export default function Header() {
 
-  const t = useTranslations();
+  const t = useTranslations("header");
   const locale = useLocale();
   const nextLocale = locale === "pt-BR" ? "en" : "pt-BR"; 
   const flagPath = locale === "pt-BR" ? "./assets/flags/brasil.jpg" : "./assets/flags/eua.jpg";
@@ -42,7 +40,7 @@ export default function Header() {
       <div className="name">
         <h1 className={cinzel.className}>Felipe Villani</h1>
         <hr />
-        <h2>Desenvolvedor de Software</h2>
+        <h2>{t("subtitle")}</h2>
       </div>
     </section>
   );
