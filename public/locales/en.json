@@ -1,0 +1,34 @@
+{
+  "header": {
+    "language": "English",
+    "aboutMe": "About me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "subtitle": "Software Developer"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "description": "Sou o Felipe Villani, formado em Engenharia da Computação no Instituto Mauá de Tecnologia. Entusiasmado por games, esportes e pelo mercado financeiro, estou sempre em busca de desafios que me permitam crescer profissionalmente. Movido pela busca contínua por conhecimento e pela aplicação prática das minhas habilidades em desenvolvimento de software, com foco em soluções limpas e eficientes. Além disso, valorizo o trabalho em equipe como meio para alcançar resultados excepcionais.",
+    "csharpExperience": "Desde o início da minha trajetória profissional, tenho atuado predominantemente com C#, envolvendo o desenvolvimento e manutenção de sistemas e APIs, geralmente utilizando o banco de dados MS SQL Server.",
+    "flutterExperience": "Fiz alguns aplicativos e um curso de Flutter. Com ele aprendi bastante sobre reatividade, gerenciadores de estado e também muito sobre Arquitetura Limpa.",
+    "pythonExperience": "Durante meu período na faculdade foi a linguagem que mais utilizei, principalmente para dados e IA. Tenho um bom entendimento da linguaguem e de algumas bibliotecas, como Pandas, NumPy e SciKit-Learn.",
+    "javaScriptExperience": "Profissionalmente já tive que desenvolver e sustentar aplicações que utilizavam Angular, e afim de aprender mais sobre o esse mundo fiz um curso de desenvolvimento web e alguns projetos."
+  },
+  "projects": {
+    "title": "Projetos",
+    "projects": [
+      {
+        "title": "QRCode Generator",
+        "description": "Um site responsivo e visualmente atraente que gera QR Codes estáticos a partir de dados de texto inseridos pelo usuário, permitindo o download fácil e rápido dos códigos."
+      },
+      {
+        "title": "Travel Organizer",
+        "description": "Uma plataforma que te ajuda a organizar sua próxima viagem, permitindo a criação de orçamentos, te dando expectativa de climas e te mostrando pontos turísticos."
+      },
+      {
+        "title": "Projeto 3",
+        "description": "Descrição do projeto 3"
+      }
+    ]
+  }
+}
