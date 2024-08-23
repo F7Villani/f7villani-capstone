@@ -1,4 +1,5 @@
 import Project from "../ProjectContainer/ProjectContainer";
+import "./ProjectsSection.css";
 
 export default function ProjectsSection() {
   return (
@@ -26,9 +27,9 @@ export default function ProjectsSection() {
             inverted={true}
           />
           <Project
-            title="Calculadora de"
-            name="Renda Fixa"
-            color="#ED1C24"
+            title="Aplicativo de Filmes"
+            name="IMDB 2"
+            color="#f0a007"
             description="Desenvolvida para auxiliar na escolha de qual produto de renda fixa é a melhor escolha para uma determinada quantidade de tempo."
             technologies={["Flutter"]}
             link=""

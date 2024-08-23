@@ -1,0 +1,33 @@
+#about {
+  padding: 1vh 20%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 10%;
+}
+
+.who-am-i > p > img {
+  float: left;
+  width: 8rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.who-am-i > p {
+  text-align: justify;
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 16px 0;
+  gap: 2rem;
+}
+
+.technology > img {
+  height: 7vh;
+}

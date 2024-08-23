@@ -1,4 +1,5 @@
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import './ProjectContainer.css';
 
 interface ProjectProps {
   title: string;
@@ -34,7 +35,7 @@ export default function Project({
         <p><span className="bold">Tecnologias: </span>{technologies.join(" ")}</p>
         <a href={link} className="see-more" target="_blank">
           {name}
-          <OpenInNewIcon className="material-symbols-outlined open-new-icon" />
+          <OpenInNewIcon className="open-new-icon" />
         </a>
       </div>
       {

@@ -3,6 +3,7 @@
 import { Cinzel } from "next/font/google";
 import { useLocale, useTranslations } from "next-intl";
 import { setUserLocale } from "@/app/hooks/locale";
+import "./Header.css";
 
 const cinzel = Cinzel({
   weight: ['400', '500', '600', '700'],
