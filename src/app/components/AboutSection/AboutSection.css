@@ -31,3 +31,21 @@
 .technology > img {
   height: 7vh;
 }
+
+@media only screen and (max-width: 600px) {
+  #about {
+    padding: 1vh 10%;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
