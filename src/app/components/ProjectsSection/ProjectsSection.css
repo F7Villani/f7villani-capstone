@@ -10,3 +10,13 @@
   gap: 10vh;
   padding: 5vh;
 }
+
+@media only screen and (max-width: 600px) {
+  #projects {
+    padding: 1vh 10%;
+  }
+  .projects-container {
+    gap: 5vh;
+    padding: 4vh 0;
+  }
+}

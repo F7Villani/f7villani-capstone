@@ -28,3 +28,9 @@
 .icons-container > a > img {
   width: 3vh;
 }
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    padding: 1vh 10%;
+  }
+}
