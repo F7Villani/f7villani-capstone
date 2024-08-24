@@ -1,0 +1,131 @@
+h1 {
+  font-size: 60pt;
+  margin-top: 20vh;
+  margin-bottom: 2vh;
+  font-family: 'Cinzel', serif;
+}
+
+#intro {
+  height: 70vh;
+  color: white;
+}
+
+.geometry {
+  position: absolute;
+  left: 50%;
+  margin-left: -35vh;
+  animation-name: rotation;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: .03;
+  height: 70vh;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.language-container {
+  display: flex;
+  justify-content: end;
+  font-size: .8rem;
+}
+
+.language-link {
+  display: flex;
+  align-items: center;
+  padding-top: 1vh;
+  padding-right: 3vh;
+  color: white;
+}
+
+.language-link:hover {
+  cursor: pointer;
+}
+
+.flag {
+  height: 2.5vh;
+  border-radius: 4px;
+  margin-right: 1vh;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 4%
+}
+
+.nav-bar > a {
+  position: relative;
+  z-index: 1;
+  font-weight: 300;
+  color: white;
+  padding-bottom: .5em;
+  text-decoration: none;
+}
+
+.nav-bar > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: .1em;
+  background-color: white;
+  transition: width 0.4s ease;
+}
+
+.nav-bar > a:hover::after {
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name > * {
+  z-index: 1;
+}
+
+.name > hr {
+  width: 28rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .geometry{
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .name > hr {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+
+  h2 {
+    font-size:.8rem;;
+  }
+
+  #intro {
+    height: 30vh;
+  }
+
+}
+
+
