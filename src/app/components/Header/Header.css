@@ -92,4 +92,33 @@
   width: 28rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .geometry{
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .name > hr {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+
+  h2 {
+    font-size:.8rem;;
+  }
+
+  #intro {
+    height: 30vh;
+  }
+
+}
+
 
