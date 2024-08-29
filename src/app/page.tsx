@@ -1,6 +1,5 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Project from "./components/ProjectContainer/ProjectContainer";
 import styles from "./page.module.css";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import About from "./components/AboutSection/AboutSection";

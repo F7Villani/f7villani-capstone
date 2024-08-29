@@ -67,6 +67,7 @@ h5 {
 .top-button {
   padding: 1rem;
   border-radius: 100%;
+  font-size: 0;
   background: linear-gradient(300deg, #34383a, #030303);
   position: fixed;
   bottom: 3vh;
