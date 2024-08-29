@@ -22,7 +22,7 @@ h2 {
   animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  opacity: .03;
+  opacity: .05;
   margin-left: -35vh;
   height: 70vh;
 }
@@ -131,7 +131,6 @@ h2 {
   #intro {
     height: 30vh;
   }
-
 }
 
 

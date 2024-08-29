@@ -8,27 +8,31 @@
   },
   "aboutMe": {
     "title": "About me",
-    "description": "Sou o Felipe Villani, formado em Engenharia da Computação no Instituto Mauá de Tecnologia. Entusiasmado por games, esportes e pelo mercado financeiro, estou sempre em busca de desafios que me permitam crescer profissionalmente. Movido pela busca contínua por conhecimento e pela aplicação prática das minhas habilidades em desenvolvimento de software, com foco em soluções limpas e eficientes. Além disso, valorizo o trabalho em equipe como meio para alcançar resultados excepcionais.",
-    "csharpExperience": "Desde o início da minha trajetória profissional, tenho atuado predominantemente com C#, envolvendo o desenvolvimento e manutenção de sistemas e APIs, geralmente utilizando o banco de dados MS SQL Server.",
-    "flutterExperience": "Fiz alguns aplicativos e um curso de Flutter. Com ele aprendi bastante sobre reatividade, gerenciadores de estado e também muito sobre Arquitetura Limpa.",
-    "pythonExperience": "Durante meu período na faculdade foi a linguagem que mais utilizei, principalmente para dados e IA. Tenho um bom entendimento da linguaguem e de algumas bibliotecas, como Pandas, NumPy e SciKit-Learn.",
-    "javaScriptExperience": "Profissionalmente já tive que desenvolver e sustentar aplicações que utilizavam Angular, e afim de aprender mais sobre o esse mundo fiz um curso de desenvolvimento web e alguns projetos."
+    "description": "I'm Felipe Villani, I graduated in Computer Engineering from Instituto Mauá de Tecnologia. Enthusiastic about video games, sports, and the financial market, I am always looking for challenges that allow me to grow professionally. Driven by a continuous search for knowledge and the practical application of my software development skills, I focus on clean and efficient solutions. In addition, I value teamwork as a means to achieve exceptional results.",
+    "csharpExperience": "Since the beginning of my professional career, I have predominantly worked with C#, focusing on the development and maintenance of systems and APIs, usually using the MS SQL Server database system.",
+    "flutterExperience": "I have developed several applications and completed a Flutter course, through which I gained deep knowledge of reactivity, state management, and Clean Architecture.",
+    "pythonExperience": "During my time in college, Python was the language I used the most, especially for data science and AI. I have a good understanding of the language and key libraries, such as Pandas, NumPy, and SciKit-Learn.",
+    "javaScriptExperience": "Professionally, I have developed and maintained applications built with Angular. To deepen my knowledge in this field, I took a web development course and worked on several projects."
   },
   "projects": {
-    "title": "Projetos",
-    "projects": [
-      {
-        "title": "QRCode Generator",
-        "description": "Um site responsivo e visualmente atraente que gera QR Codes estáticos a partir de dados de texto inseridos pelo usuário, permitindo o download fácil e rápido dos códigos."
-      },
-      {
-        "title": "Travel Organizer",
-        "description": "Uma plataforma que te ajuda a organizar sua próxima viagem, permitindo a criação de orçamentos, te dando expectativa de climas e te mostrando pontos turísticos."
-      },
-      {
-        "title": "Projeto 3",
-        "description": "Descrição do projeto 3"
-      }
-    ]
+    "title": "Projects",
+    "codeCrafty": {
+      "title": "QRCode Generator",
+      "description": "A responsive and visually appealing website that generates static QR codes from user-entered text, enabling quick and easy downloads."
+    },
+    "tripPlanner": {
+      "title": "Travel Organizer",
+      "description": "A platform that helps you organize your next trip by allowing you to create budgets, providing climate expectations, and highlighting tourist attractions."
+    },
+    "aHalfIMDB": {
+      "title": "Movies App",
+      "description": "A simple mobile application that consumes the IMDB API to display information about popular movies, series, and actors, allowing users to search across these categories."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "firstMessage":"Do you want to get in touch with me?",
+    "secondMessage": "Feel free to send me an email!",
+    "buttonMessage": "Send an email"
   }
 }

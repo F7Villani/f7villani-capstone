@@ -16,19 +16,23 @@
   },
   "projects": {
     "title": "Projetos",
-    "projects": [
-      {
-        "title": "Gerador de QRCode",
-        "description": "Um site responsivo e visualmente atraente que gera QR Codes estáticos a partir de dados de texto inseridos pelo usuário, permitindo o download fácil e rápido dos códigos."
-      },
-      {
-        "title": "Organizador de Viagens",
-        "description": "Uma plataforma que te ajuda a organizar sua próxima viagem, permitindo a criação de orçamentos, te dando expectativa de climas e te mostrando pontos turísticos."
-      },
-      {
-        "title": "Projeto 3",
-        "description": "Descrição do projeto 3"
-      }
-    ]
+    "codeCrafty": {
+      "title": "Gerador de QRCode",
+      "description": "Um site responsivo e visualmente atraente que gera QR Codes estáticos a partir de dados de texto inseridos pelo usuário, permitindo o download fácil e rápido dos códigos."
+    },
+    "tripPlanner": {
+      "title": "Organizador de Viagens",
+      "description": "Uma plataforma que te ajuda a organizar sua próxima viagem, permitindo a criação de orçamentos, te dando expectativa de climas e te mostrando pontos turísticos."
+    },
+    "aHalfIMDB": {
+      "title": "Aplicativo de Filmes",
+      "description": "Um simples aplicativo que consome a API do IMDB e te mostra informações sobre filmes, séries e atores em alta, permitindo tammbém a busca por qualquer uma dessas três categorias."
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "firstMessage":"Quer entrar em contato comigo?",
+    "secondMessage": "Fique a vontade para me mandar um email!",
+    "buttonMessage": "Envie um email"
   }
 }
