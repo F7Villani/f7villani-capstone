@@ -34,4 +34,8 @@
     padding: 1vh 10%;
     padding-right: 25%;
   }
+
+  .icons-container {
+    gap: 8%;
+  }
 }
