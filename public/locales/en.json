@@ -27,6 +27,10 @@
     "aHalfIMDB": {
       "title": "Movies App",
       "description": "A simple mobile application that consumes the IMDB API to display information about popular movies, series, and actors, allowing users to search across these categories."
+    },
+    "timeCapsulee": {
+      "title": "Time Capsules creator",
+      "description": "A platform for you to create time capsules with photos and a message for yourself, friends, or family to access only in the future."
     }
   },
   "contact": {
