@@ -36,7 +36,7 @@ export default function ProjectsSection() {
             color="#0774f0"
             description={t("tripPlanner.description")}
             technologies={["React", "Next.js"]}
-            link="https://f7villani.github.io/trip-planner/"
+            link="https://trip-planner-f7villani.vercel.app"
             imageSrc="./assets/trip-planner-logo.png"
             inverted={true}
           />
