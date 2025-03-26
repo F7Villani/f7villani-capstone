@@ -11,6 +11,16 @@ export default function ProjectsSection() {
         <h3>{t("title")}</h3>
         <hr />
         <div className="projects-container">
+        <Project
+            title={t("timeCapsulee.title")}
+            name="Time Capsulee"
+            color="#5FB0FF"
+            description={t("timeCapsulee.description")}
+            technologies={["React", "Next.js"]}
+            link="https://timecapsulee.com"
+            imageSrc="./assets/time-capsule.png"
+            inverted={true}
+          />
           <Project
             title={t("codeCrafty.title")}
             name="Code Crafty"
@@ -30,15 +40,19 @@ export default function ProjectsSection() {
             imageSrc="./assets/trip-planner-logo.png"
             inverted={true}
           />
-          <Project
-            title={t("aHalfIMDB.title")}
-            name="IMDB 2"
-            color="#f0a007"
-            description={t("aHalfIMDB.description")}
-            technologies={["Flutter"]}
-            link=""
-            imageSrc="./assets/calculator.png"
-          />
+          {
+            /*
+              <Project
+                title={t("aHalfIMDB.title")}
+                name="IMDB 2"
+                color="#f0a007"
+                description={t("aHalfIMDB.description")}
+                technologies={["Flutter"]}
+                link=""
+                imageSrc="./assets/calculator.png"
+              />
+            */
+          }
         </div>
       </section>
   );

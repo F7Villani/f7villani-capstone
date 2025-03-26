@@ -27,6 +27,10 @@
     "aHalfIMDB": {
       "title": "Aplicativo de Filmes",
       "description": "Um simples aplicativo que consome a API do IMDB e te mostra informações sobre filmes, séries e atores em alta, permitindo tammbém a busca por qualquer uma dessas três categorias."
+    },
+    "timeCapsulee": {
+      "title": "Criador de cápsulas do tempo",
+      "description": "Uma plataforma para você criar cápsulas do tempo com fotos e uma mensagem para você mesmo, amigos ou familiares acessarem apenas no futuro."
     }
   },
   "contact": {
